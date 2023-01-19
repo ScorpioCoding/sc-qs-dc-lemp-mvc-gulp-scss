@@ -1,8 +1,11 @@
 ![image](quickstart-github-banner.png)
 
-# sc-qs-dc-php
+# sc-qs-dc-php-lemp-gulp-scss
 
-ScorpioCoing QuickStart Docker Nginx Php stack
+ScorpioCoing QuickStart Docker Apline Nginx Php MySql (LEMP) stack.  
+Now with MVC Model-View-Controller Application Setup.  
+Using Gulp to Copy files from the dev environment.  
+Using Gulp to handle Scss and Javascript.
 
 ## Basic Usage
 
