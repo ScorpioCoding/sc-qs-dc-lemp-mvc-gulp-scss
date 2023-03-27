@@ -1,8 +1,7 @@
 [class*="grid-"] {
   display: grid;
   gap: 1rem;
-  margin: 5rem auto;
-  width: min(90%, 75rem);
+
 
 }
 
@@ -44,14 +43,51 @@
 }
 
 @media (min-width: 45em) {
+
+  .col-span-2 {
+    grid-column: span 2;
+  }
+
+  .col-span-3 {
+    grid-column: span 3;
+  }
+
+  .col-span-4 {
+    grid-column: span 4;
+  }
+
+  .col-span-5 {
+    grid-column: span 5;
+  }
+
+  .col-span-6 {
+    grid-column: span 6;
+  }
+
+  .grid-6-columns {
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    grid-template-columns: repeat(3, 17%);
+  }
+
+  .grid-5-columns {
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    grid-template-columns: repeat(3, 20%);
+  }
+
+  .grid-4-columns {
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    grid-template-columns: repeat(3, 25%);
+  }
+
   .grid-3-columns {
     margin: 5rem auto;
     width: min(90%, 75rem);
     grid-template-columns: repeat(3, 33%);
   }
-}
 
-@media (min-width: 50em) {
   .grid-2-columns {
     margin: 5rem auto;
     width: min(90%, 75rem);
